@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+.upload-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.prediction {
+    margin-top: 10px;
+    font-size: 20px;
+}
