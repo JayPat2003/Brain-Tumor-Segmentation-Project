@@ -1,1 +1,3 @@
+Link of the kaggle dataset: https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation
 
+The kaggle dataset is the secondary source of the Brain MRI datasets. The primary source is from the Roboflow
