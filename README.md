@@ -7,6 +7,7 @@ This project demonstrates a deep learning approach to accurately segment brain t
 ## Dataset
 
 Link of the kaggle dataset: https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation
+
 The Primary souce of the dataset is from Roboflow.
 
 The dataset consists of **2,146** MRI scans of brain tumors, each with corresponding **pixel-wise segmentation masks** that highlight tumor regions. The data is split into **1,500 training images**, **300 validation images**, and **346 test images**, ensuring proper evaluation of model performance. Each image is preprocessed to a **256x256** resolution and normalized for training. The dataset provides a robust challenge for **medical image segmentation** and is ideal for training deep learning models like **U-Net and Attention U-Net**.
