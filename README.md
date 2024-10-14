@@ -4,6 +4,13 @@
 
 This project demonstrates a deep learning approach to accurately segment brain tumors from MRI scans using an **Attention U-Net** architecture. The model focuses on improving segmentation accuracy by employing attention gates that enhance its ability to focus on important regions of the input images. The combination of **Attention U-Net** with advanced **data augmentation** techniques and **custom loss functions** like the **Dice coefficient** ensures robust performance, even in the presence of class imbalance and small segmentation regions.
 
+## Dataset
+
+Link of the kaggle dataset: https://www.kaggle.com/datasets/pkdarabi/brain-tumor-image-dataset-semantic-segmentation
+The Primary souce of the dataset is from Roboflow.
+
+The dataset consists of **2,146** MRI scans of brain tumors, each with corresponding **pixel-wise segmentation masks** that highlight tumor regions. The data is split into **1,500 training images**, **300 validation images**, and **346 test images**, ensuring proper evaluation of model performance. Each image is preprocessed to a **256x256** resolution and normalized for training. The dataset provides a robust challenge for **medical image segmentation** and is ideal for training deep learning models like **U-Net and Attention U-Net**.
+
 ## Key Features
 - **Attention U-Net Architecture**: Utilizes attention gates to refine the segmentation process by selectively focusing on relevant features.
 - **Custom Loss Function**: Incorporates a combination of **binary crossentropy** and the **Dice coefficient**, ensuring precise segmentation, especially for small and imbalanced regions.
